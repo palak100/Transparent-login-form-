@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Fuzzy+Bubbles&family=Kanit:wght@100&family=Open+Sans+Condensed:wght@300&family=Twinkle+Star&family=Ubuntu+Mono:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container h1
+{
+    font-family: 'Ubuntu Mono', monospace;
+    position:relative;
+    top: -21%;
+    font-weight: bolder;
+}
+body
+{
+    color: white;
+    background-image: url(./1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    /* border: 2px solid red; */
+    display:grid;
+    align-items: center;
+    justify-content:  center;
+    position: absolute;
+    /* top: 222px;
+    left: 470px; */
+    top: 23%;
+    left: 31%;
+}
+.container h1
+{
+    font-size: 40px;
+    margin: 10px 5px;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+.box
+{
+    /* border: 2px solid white; */
+    margin: 2px;
+    padding: 5px;
+    border-bottom: 2px solid whitesmoke;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: aliceblue;
+}
+.box input
+{
+    background: none;
+    width: 82%;
+    outline: none;
+    margin-left: 3%;
+    font-size: 20px;
+    border: none;
+    position:relative;
+    top: -9.9px;
+    color: white;
+}
+.box img
+{
+    padding-left: 4%;
+    padding-right:1%;
+    height: 40px;
+    left: 20%;
+}
+.btn
+{
+    color: white;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    outline: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 36%;
+    background: none;
+    position: relative;
+    top: 22%;
+}
+.btn:hover
+{
+    opacity: 0.5;
+    background-color:gray;
+    /* margin: 13px; */
+    padding: 8px 8px;
+    /* box-shadow: 20px; */
+}
+@media only screen and (min-width: 300px) and (max-width: 680px) {
+    .container {
+        margin: 40px 15px;
+        position: unset;
+    }
+    .container h1 {
+        font-size: 30px;
+        text-align: center;
+        width: unset;
+    }
+    .box input {
+        margin: 10px auto;
+    }
+}
